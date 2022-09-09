@@ -1,11 +1,19 @@
 //variables here// 
+var arrayName;
+var requestedMessage;
+var randomIndex;
+
 var mantras = [
   'Be the little engine that could.',
   'Fake it \'til you make it.',
   'Patience is bitter but its fruit is sweet.',
   'Worrying is like betting against yourself.',
-  'Relax and release.'
-
+  'Relax and release.',
+  'My body is a temple. I keep my temple clean.',
+  'Good health is a practice, and I have patience.',
+  'I surrender to the flow and have faith in the ultimate good.',
+  'I will speak with confidence and self-assurance.',
+  'My mind is brilliant. My body is healthy. My spirit is tranquil.'
 ];
 
 var affirmations = [
@@ -15,11 +23,11 @@ var affirmations = [
   'I can find the humerus in any body.',
   'The voices in my head always think of something funny to say.',
   'I have perfect comedy timing...after the fact.',
-  'I will always find a way to have fun...usually.'
+  'I will always find a way to have fun...usually.',
+  'Every cell in my body is alive and beautiful.',
+  'My potential is limitless, and I choose where to spend my energy.',
+  'I am conquering my fears and becoming stronger each day.'
 ];
-var arrayName;
-var requestedMessage;
-var randomIndex;
 
 // query selectors here//
 var affirmationButton = document.querySelector('#affirmation-button');
@@ -33,7 +41,6 @@ mantraButton.addEventListener('click', selectMantra);
 receiveMessageButton.addEventListener('click', returnMessage);
 
 // functions here //
-
 function getRandomIndex(arrayName) {
   randomIndex = Math.floor(Math.random() * arrayName.length);
 }
@@ -48,18 +55,12 @@ function selectMantra() {
   getRandomIndex(mantras);
 }
 
-
 function returnMessage() {
   if (requestedMessage === 'affirmation') {
-    console.log('Affirmation requested')
- // look into the affirmation array at index 0 for now (randomize later)
- //  return the string at index 0
- // use it to replace innerHTML inside the p
     messageBox.innerHTML = `<p>${affirmations[randomIndex]}</p>`
   } 
   
   if (requestedMessage === 'mantra') {
-    console.log('Mantra requested')
     messageBox.innerHTML = `<p>${mantras[randomIndex]}</p>`
   }
  }

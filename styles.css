@@ -7,11 +7,9 @@ body {
   background-repeat: no-repeat;
   color: #ffffff;
   font-family: 'Quicksand', sans-serif;
-  /* margin: 50px auto 150px auto; */
   text-align: center;
 }
 
-/* look at box model to add borders, margin, padding, etc. */
 form {
   background-color: #FFFFFF;
   border-radius: 8px;
@@ -41,11 +39,6 @@ img {
   margin: 0px 5px 10px 180px;
 }
 
-
-label {
-  margin: auto;
-}
-
 #message-box {
     border-radius: 8px;
     background: #FFFFFF;
@@ -62,7 +55,6 @@ label {
   }
 
   #receive-message-button {
-    align-content: center;
     background-color: #134d71;
     border-radius: 5px;
     border: 10px;
@@ -72,7 +64,6 @@ label {
     font-size: 15px;
     height: 25px;
     margin: 8px auto 5px auto;
-    padding: 0px;
     width: 175px;
   }
   
