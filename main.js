@@ -34,14 +34,20 @@ var affirmationButton = document.querySelector('#affirmation-button');
 var mantraButton = document.querySelector('#mantra-button');
 var receiveMessageButton = document.querySelector('#receive-message-button');
 var messageBox = document.querySelector('p');
+var clearButton = document.querySelector('#clear-button')
+// On windowload the clearButton = hidden
+// When receiveMessageButton is clicked, the clearButton will become visible.
+// When clearButton is clicked, the window will reload.
+
 
 // event listeners here //
 affirmationButton.addEventListener('click', selectAffirmation);
 mantraButton.addEventListener('click', selectMantra);
 receiveMessageButton.addEventListener('click', returnMessage);
 
+
 // functions here //
-function getRandomIndex(arrayName) {
+function getRandomIndex(arrayName) { 
   randomIndex = Math.floor(Math.random() * arrayName.length);
 }
 
@@ -55,11 +61,17 @@ function selectMantra() {
   getRandomIndex(mantras);
 }
 
+function showClearButton() {
+  clearButton.classList.remove('hidden');
+}
+
 function returnMessage() {
   if (requestedMessage === 'affirmation') {
     messageBox.innerHTML = `<p>${affirmations[randomIndex]}</p>`;
+    showClearButton();
   } else if (requestedMessage === 'mantra') {
     messageBox.innerHTML = `<p>${mantras[randomIndex]}</p>`;
+    showClearButton();
   } else {
     alert('Please select mantra or affirmation.')
   }
