@@ -1,4 +1,3 @@
-//variables here// 
 var arrayName;
 var requestedMessage;
 var randomIndex;
@@ -29,7 +28,6 @@ var affirmations = [
   'I am conquering my fears and becoming stronger each day.'
 ];
 
-// query selectors here//
 var affirmationButton = document.querySelector('#affirmation-button');
 var mantraButton = document.querySelector('#mantra-button');
 var receiveMessageButton = document.querySelector('#receive-message-button');
@@ -37,13 +35,13 @@ var messageBox = document.querySelector('p');
 var clearButton = document.querySelector('#clear-button');
 var bodyArea = document.querySelector('body');
 
-// event listeners here //
+
 affirmationButton.addEventListener('click', selectAffirmation);
 mantraButton.addEventListener('click', selectMantra);
 receiveMessageButton.addEventListener('click', returnMessage);
 clearButton.addEventListener('click', clearEverything);
 
-// functions here //
+
 function clearEverything() {
   location.reload();
 }
@@ -74,6 +72,6 @@ function returnMessage() {
     messageBox.innerHTML = `<p>${mantras[randomIndex]}</p>`;
     showClearButton();
   } else {
-    alert('Please select mantra or affirmation.')
+    alert('Please select mantra or affirmation.');
   }
  }
