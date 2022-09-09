@@ -57,10 +57,10 @@ function selectMantra() {
 
 function returnMessage() {
   if (requestedMessage === 'affirmation') {
-    messageBox.innerHTML = `<p>${affirmations[randomIndex]}</p>`
-  } 
-  
-  if (requestedMessage === 'mantra') {
-    messageBox.innerHTML = `<p>${mantras[randomIndex]}</p>`
+    messageBox.innerHTML = `<p>${affirmations[randomIndex]}</p>`;
+  } else if (requestedMessage === 'mantra') {
+    messageBox.innerHTML = `<p>${mantras[randomIndex]}</p>`;
+  } else {
+    alert('Please select mantra or affirmation.')
   }
  }
