@@ -34,6 +34,11 @@ form {
   width: 500px;
 }
 
+.hidden {
+  visibility: hidden;
+}
+
+
 h2 {
   margin: 40px auto 65px auto;
 }
