@@ -42,5 +42,4 @@ I worked with VS Code, html, CSS, JavaScript, Git, GitHub, the terminal, and the
 
 ### Wins + Challenges:
 [//]: <> (What are 2-3 wins you have from this project? What were some challenges you faced - and how did you get over them?)
-Wins:
-I felt really positive about my own ability on this project. I <strong>definitely</strong> would have perfected the layout a little more (i.e. centering the returned message in the text box a little better) and added additional functionality (i.e. dynamic sizing for different screens) if I <em>wasn't</em> going to be out of town this weekend (as I am now). But for the time I had available to me, and because I really tried to follow the guidelines and complete the project on my own, I feel pretty darn good about it. 
+I felt really positive about my own ability on this project. I <strong>definitely</strong> would have perfected the layout a little more (i.e. centering the returned message in the text box a little better) and added additional functionality (i.e. dynamic sizing for different screens) if I <em>wasn't</em> going to be out of town this weekend (as I am now). If I had it to do all over again, I would have done it differntly. But for the time I had available to me, and because I really tried to follow the guidelines and complete the project on my own, I feel pretty darn good about it. 
