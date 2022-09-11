@@ -20,7 +20,8 @@ It would be the same as the pair-project:
 ### Preview of App:
 [//]: <> (Provide ONE gif or screenshot of your application - choose the "coolest" piece of functionality to show off.)
 
-<img width="1434" alt="self-care-1 comp" src="https://user-images.githubusercontent.com/104015966/189546070-1534d366-f21d-4745-82e8-0af1803f6522.png">
+<img width="1313" alt="Screen Shot 2022-09-11 at 2 39 16 PM" src="https://user-images.githubusercontent.com/104015966/189546132-7c3aec02-7409-4210-af7f-8a1357673cc5.png">
+
 ### Context:
 [//]: <> (Give some context for the project here. How long did you have to work on it? How far into the Turing program are you?)
 I probably invested 15 - 18 hours into the project. I'm in week 3 of Mod 1. If I had it to do all over again, I would have started with dynamic element sizing right off the bat. Also, I wondered if there was a styling class I could have created that would have produced DRYer CSS by being able to apply it to all of the text elements on-screen, instead of having to manually configure padding, border, and margins for each individual element.
