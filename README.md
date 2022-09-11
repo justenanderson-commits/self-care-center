@@ -1,4 +1,4 @@
-add all# Self-Care Center 
+Self-Care Center 
 
 ### Abstract:
 [//]: <> (Briefly describe what you built and its features. What problem is the app solving? How does this application solve that problem?)
@@ -7,19 +7,20 @@ I built a website to provide pre-packaged encouragement to anyone in need. It wi
 ### Installation Instructions:
 [//]: <> (What steps does a person have to take to get your app cloned down and running?)
 It would be the same as the pair-project:
-Go to repo on Github [(https://github.com/jacobzimmer47/romcom-pair)]
-Click Fork > Create New Fork
-Click Code
-Copy the SSH url provided by GitHub
-In the terminal, navigate to the new project repository
-Type git clone and paste the URL
-Open the repo in text editor
-Type open index.html in the terminal
-Manipulate the application in the browser window
+1. Go to repo on Github [(https://github.com/justenanderson-commits/self-care-center)]
+2. Click Fork > Create New Fork
+3. Click Code
+4. Copy the SSH url provided by GitHub
+5. In the terminal, navigate to the new project repository
+6. Type git clone and paste the URL
+7. Open the repo in text editor
+8. Type open index.html in the terminal
+9. Manipulate the application in the browser window
 
 ### Preview of App:
 [//]: <> (Provide ONE gif or screenshot of your application - choose the "coolest" piece of functionality to show off.)
 
+<img width="1434" alt="self-care-1 comp" src="https://user-images.githubusercontent.com/104015966/189546070-1534d366-f21d-4745-82e8-0af1803f6522.png">
 ### Context:
 [//]: <> (Give some context for the project here. How long did you have to work on it? How far into the Turing program are you?)
 I probably invested 15 - 18 hours into the project. I'm in week 3 of Mod 1. If I had it to do all over again, I would have started with dynamic element sizing right off the bat. Also, I wondered if there was a styling class I could have created that would have produced DRYer CSS by being able to apply it to all of the text elements on-screen, instead of having to manually configure padding, border, and margins for each individual element.
